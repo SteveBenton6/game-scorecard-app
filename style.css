@@ -5,7 +5,7 @@ body {
 
 .scorecard {
   max-width: 500px;
-  height: 375px;
+  height: 425px;
   background-color: #045204;
   border-radius: 10px;
   margin: 0 auto;
@@ -52,4 +52,10 @@ h3 {
   font-size: 20px;
   color: #eeeeee;
   text-align: center;
+}
+
+.score-ref .btn {
+  color: #a5616c;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

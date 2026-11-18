@@ -2,7 +2,7 @@ const homeScoreEl = document.getElementById("home-score");
 const awayScoreEl = document.getElementById("away-score");
 
 let homeScore = 0;
-let awayScore = 10;
+let awayScore = 0;
 
 displayScore();
 
@@ -38,5 +38,25 @@ function score5home() {
 
 function score7home() {
   homeScore += 7;
+  displayScore();
+}
+
+function score2away() {
+  awayScore += 2;
+  displayScore();
+}
+
+function score3away() {
+  awayScore += 3;
+  displayScore();
+}
+
+function score5away() {
+  awayScore += 5;
+  displayScore();
+}
+
+function score7away() {
+  awayScore += 7;
   displayScore();
 }

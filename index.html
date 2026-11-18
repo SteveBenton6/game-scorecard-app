@@ -20,15 +20,16 @@
         <div>
           <h3>AWAY</h3>
           <p id="away-score" class="score"></p>
-          <button id="away-two" class="btn">+2</button>
-          <button id="away-three" class="btn">+3</button>
-          <button id="away-five" class="btn">+5</button>
-          <button id="away-seven" class="btn">+5</button>
+          <button id="away-two" class="btn" onclick="score2away()">+2</button>
+          <button id="away-three" class="btn" onclick="score3away()">+3</button>
+          <button id="away-five" class="btn" onclick="score5away()">+5</button>
+          <button id="away-seven" class="btn" onclick="score7away()">+7</button>
         </div>
       </div>
       <div class="score-ref">
         <p>Try: +5, Conversion: +2, Penalty Kick: +3</p>
         <p>Drop Goal: +3, Penalty Try: +7</p>
+        <button class="btn">Final Whistle</button>
       </div>
     </div>
     <script src="script.js"></script>
