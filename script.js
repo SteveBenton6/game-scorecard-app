@@ -60,3 +60,9 @@ function score7away() {
   awayScore += 7;
   displayScore();
 }
+
+function finalWhistle() {
+  homeScore = 0;
+  awayScore = 0;
+  displayScore();
+}
