@@ -13,6 +13,9 @@ function displayScore() {
     homeScoreEl.style.color = "green";
   } else if (awayScore > homeScore) {
     awayScoreEl.style.color = "green";
+  } else if (awayScore === homeScore) {
+    homeScoreEl.style.color = "orange";
+    awayScoreEl.style.color = "orange";
   }
   homeScoreEl.textContent = homeScore;
   awayScoreEl.textContent = awayScore;

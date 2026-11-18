@@ -6,7 +6,7 @@ body {
 .scorecard {
   max-width: 500px;
   height: 375px;
-  background-color: darkgreen;
+  background-color: #045204;
   border-radius: 10px;
   margin: 0 auto;
   padding: 20px;
@@ -20,7 +20,7 @@ body {
 
 h3 {
   font-size: 50px;
-  color: white;
+  color: #eeeeee;
   margin: 10px auto;
   text-align: center;
 }
@@ -32,23 +32,24 @@ h3 {
   width: 100px;
   height: 100px;
   background-color: black;
-  color: red;
+  color: #f94f6d;
   margin: 20px auto 30px auto;
   font-size: 64px;
+  border-radius: 5px;
 }
 
 .btn {
   font-family: "Cursed Timer ULiL", sans-serif;
   font-size: 24px;
   padding: 5px 10px;
-  background-color: darkgreen;
-  border: 1px solid white;
-  border-radius: 2px;
-  color: white;
+  background-color: #045204;
+  border: 1px solid #cce5c9;
+  border-radius: 4px;
+  color: #eeeeee;
 }
 
 .score-ref {
   font-size: 20px;
-  color: white;
+  color: #eeeeee;
   text-align: center;
 }
