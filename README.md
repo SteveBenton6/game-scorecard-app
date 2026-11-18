@@ -15,7 +15,8 @@
 3.  Update Score to reflect button pressed
 4.  Style to reflect Figma Design Image Provided
 5.  Tailor to reflect specific game: updated for Rugby Union
-6.  Points explanation added
+6.  Points score explanation added
+7.  Game completed button to reset scores
 
 ## Concepts Used:
 
