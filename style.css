@@ -48,6 +48,11 @@ h3 {
   color: #eeeeee;
 }
 
+.btn:hover {
+  background-color: #cce5c9;
+  color: #045204;
+}
+
 .score-ref {
   font-size: 20px;
   color: #eeeeee;
